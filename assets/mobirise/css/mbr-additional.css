@@ -2106,3 +2106,56 @@ body {
 .cid-s9UnmFFES7 blockquote {
   color: #767676;
 }
+.cid-scI8Ztz8F1 {
+  background: #ffffff;
+}
+.cid-scI8Ztz8F1 .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-scI8Ztz8F1 .video-block {
+    width: 100% !important;
+  }
+}
+.cid-scI9EfHJlI {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-scI9EfHJlI .card-img {
+  background-color: #fff;
+}
+.cid-scI9EfHJlI .card-box {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+.cid-scI9EfHJlI h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-scI9EfHJlI p {
+  text-align: left;
+}
+.cid-scI9EfHJlI .mbr-text {
+  color: #767676;
+  text-align: left;
+}
+.cid-scI9EfHJlI .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-scI9EfHJlI .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-scI9EfHJlI .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
+  }
+}
