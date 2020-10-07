@@ -35,7 +35,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 33,
+    "uniqCompNum": 35,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png"
   },
@@ -503,64 +503,12 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".counter-container": {
-              "color": "#767676",
-              "ol": {
-                "margin-bottom": "0",
-                "li": {
-                  "margin-bottom": "1rem"
-                },
-                "& when (@stylizedCounters)": {
-                  "counter-reset": "myCounter",
-                  "li": {
-                    "list-style": "none",
-                    "padding-left": ".5rem",
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "0px",
-                      "margin-top": "-10px",
-                      "counter-increment": "myCounter",
-                      "content": "counter(myCounter)",
-                      "display": "inline-block",
-                      "text-align": "center",
-                      "margin": "5px 10px",
-                      "line-height": "40px",
-                      "transition": "all .2s",
-                      "color": "contrast(@counterColor)",
-                      "background": "@counterColor",
-                      "width": "40px",
-                      "height": "40px",
-                      "border-radius": "50%",
-                      "& when (@squareCounters)": {
-                        "border-radius": "0"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Gestijlde tellers\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Vierkante tellers\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Tellerkleur\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>MOBIEL VRIENDELIJK</b> - geen speciale acties vereist, alle sites die u met Mobirise maakt, zijn mobielvriendelijk. U hoeft geen speciale mobiele versie van uw site te maken, deze zal zich automatisch aanpassen. <a href=\"https://mobirise.co/\">Probeer het nu!</a></li>\n                    <li><b>MAKKELIJK EN EENVOUDIG</b> - verkort de ontwikkeltijd met een drag-en-drop website builder. Plaats de blocks op de pagina, bewerk de inhoud inline en publiceer - geen technische vaardigheden vereist. <a href=\"https://mobirise.co/\">Probeer het nu!</a></li>\n                    <li><b>WEERGALOZE VORMGEVING</b> - kies uit de enorme selectie van de nieuwste kant-en-klaar blocks - schermvullende intro, bootstrap-carrousel, inhoudslider, galerij met leuke afbeeldingen met lightbox, parallax-scrollen, videobeelden, hamburgermenu, sticky hoofding en meer. <a href=\"https://mobirise.co/\">Probeer het nu!</a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s8je43Qapm",
-          "_anchor": "content11-8",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
             ".mbr-text": {
               "color": "#767676"
             }
           },
           "_name": "content3",
-          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings=\"\" class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline=\"\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected=\"\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-article=\"\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article=\"\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p>Maak met een paar muisklikken uw eigen website! Mobirise helpt u de ontwikkeltijd te verkorten door u een veelzijdige website-editor te bieden met een drag-en-drop interface. Mobirise Website Builder maakt met een paar muisklikken leuke, retina- en mobielvriendelijke websites. Mobirise is een van de gemakkelijkst apps beschikbaar voor het ontwikkelen van websites. Het laat je ook toe zoveel websites te ontwerpen als u wilt gezien het een desktop-app is.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article=\"\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-if=\"cardsAmount > 2\">\n                     <p>Maak met een paar muisklikken uw eigen website! Mobirise helpt u de ontwikkeltijd te verkorten door u een veelzijdige website-editor te bieden met een drag-en-drop interface. Mobirise Website Builder maakt met een paar muisklikken leuke, retina- en mobielvriendelijke websites. Mobirise is een van de gemakkelijkst apps beschikbaar voor het ontwikkelen van websites. Het laat je ook toe zoveel websites te ontwerpen als u wilt gezien het een desktop-app is.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p>OTX Logistics was founded in 1994. We are part of the On Time Group, An Asian based freight forwarding network with 54 own offices specialized in providing local and international logistics solutions.</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p>We don't do just air and sea freight. We also do warehousing, value-added logistics and distribution. At OTX Logistics, we like to get to know your company and your processes. We discuss your requirements and offer you tailor-made solutions. So we'll look at your organization and learn the logistical requirements of your product group. OTX Logistics will know your market inside out. We are particularly at home in &nbsp;Fashion and High-Tech logistics!</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p>Maak met een paar muisklikken uw eigen website! Mobirise helpt u de ontwikkeltijd te verkorten door u een veelzijdige website-editor te bieden met een drag-en-drop interface. Mobirise Website Builder maakt met een paar muisklikken leuke, retina- en mobielvriendelijke websites. Mobirise is een van de gemakkelijkst apps beschikbaar voor het ontwikkelen van websites. Het laat je ook toe zoveel websites te ontwerpen als u wilt gezien het een desktop-app is.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s8je53Cvqs",
           "_anchor": "content3-a",
           "_protectedParams": [],
@@ -906,19 +854,36 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            ".btn": {
+              "margin": "0 0 .5rem 0"
+            },
+            "& when (@reverseContent)": {
+              ".content-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              }
             }
           },
-          "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline=\"\" mbr-article=\"\">\n                <blockquote> <b>Maak uw eigen website in enkele muilsklikken!</b> Mobirise helpt u de ontwikkeltijd te verkorten door u een veelzijdige website-editor te bieden met een drag-en-drop interface. Mobirise Website Builder maakt leuke, retina- en <b>mobiel-vriendelijke websites</b> met een paar muisklikken. Mobirise is een van de makkelijkste webtools vandaag <a href=\"https://mobirise.co/\">beschikbaar</a> . Het laat u toe om zoveel websites te ontwerpen als u wilt daar het een desktop-app is.</blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s9UnmFFES7",
-          "_anchor": "content2-h",
+          "_name": "info1",
+          "_customHTML": "<section class=\"mbr-section info1\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Tekst op links/rechts\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Kleurverloop Bg\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" name=\"color2\" title=\"Kleur 2\" value=\"#cebfaf\" condition=\"bg.type=='color' && gradientBg\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center content-row\">\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\"><b>Fashion &amp; Lifestyle logistics   &nbsp;\n</b></h3>\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\"><div><span style=\"font-weight: normal;\">With a personal touch</span></div></h2>\n            </div>\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-right py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">CONTACT US!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "scJ1Uy1ar9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "info1-x"
         },
         {
           "alias": false,
@@ -1482,13 +1447,13 @@
             }
           },
           "_name": "contacts4",
-          "_customHTML": "<section class=\"contacts4\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Kaart\" name=\"googleMap\" place-id=\"EjpBaXJib3JuZSBBdmVudWUgNjUsIDIxMzNMViwgMjEzMyBMViBIb29mZGRvcnAsIE5ldGhlcmxhbmRzIiIaIAoWChQKEgnVW6rxnefFRxFcqEzcs7RRdhIGMjEzM0xW\" value=\"Airborne Avenue 65, 2133LV Hoofddorp\n\">\n        <input type=\"range\" inline title=\"Height Map\" name=\"heightMap\" min=\"20\" max=\"60\" step=\"1\" value=\"35\">\n        <input type=\"checkbox\" title=\"Show Block\" name=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" condition=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Text-1\" name=\"showText1\" condition=\"showBlock\">\n        <input type=\"checkbox\" title=\"Show Text-2\" name=\"showText2\" condition=\"showBlock\" checked>\n        <input type=\"color\" title=\"Color Block\" name=\"colorBlock\" value=\"#ffffff\" condition=\"showBlock\">\n\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"main_wrapper\">\n        <div class=\"b_wrapper\" mbr-if=\"showBlock\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-12 col-md-5 p-0\">\n                        <div class=\"block p-5\">\n                            <div class=\"block_wrapper\">\n                                <h4 class=\"align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Address</h4>\n                                <p class=\"mbr-text align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText1\">OTX Logistics&nbsp;<br><br></p>\n                                <p class=\"mbr-text align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText2\">OTX Logistics BV<br>Airborne Avenue 65-67<br>2133LV Hoofddorp<br>The Netherlands<br>+31 20 655 0010 \n<br>info@ams.otxlogistics.com<br></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <!--Map-->\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
-          "_cid": "scIUz1ap92",
+          "_customHTML": "<section class=\"contacts4\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Kaart\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.7993195139566!2d4.691905015798693!3d52.28334517977009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e716efc88fd9%3A0xfb5437ccac9fac00!2sOTX%20Logistics%20BV!5e0!3m2!1snl!2snl!4v1602066177783!5m2!1snl!2snl&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <input type=\"range\" inline title=\"Height Map\" name=\"heightMap\" min=\"20\" max=\"60\" step=\"1\" value=\"40\">\n        <input type=\"checkbox\" title=\"Show Block\" name=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" condition=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Text-1\" name=\"showText1\" condition=\"showBlock\" checked>\n        <input type=\"checkbox\" title=\"Show Text-2\" name=\"showText2\" condition=\"showBlock\">\n        <input type=\"color\" title=\"Color Block\" name=\"colorBlock\" value=\"#ffffff\" condition=\"showBlock\">\n\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"main_wrapper\">\n        <div class=\"b_wrapper\" mbr-if=\"showBlock\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-12 col-md-5 p-0\">\n                        <div class=\"block p-5\">\n                            <div class=\"block_wrapper\">\n                                <h4 class=\"align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">ADDRESS</h4>\n                                <p class=\"mbr-text align-left mbr-fonts-style pb-4 m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText1\">OTX Logistics BV\n<br>Airborne Avenue 65-67\n<br>2133LV Hoofddorp\n<br>The Netherlands\n<br>+31 20 655 0010 \n<br>info@ams.otxlogistics.com</p>\n                                <p class=\"mbr-text align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText2\">350 5th Ave, New York,<br>NY 10118, USA<br><br></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <!--Map-->\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
+          "_cid": "scJ3Y50jTw",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "contacts4-t"
+          "_anchor": "contacts4-y"
         },
         {
           "alias": false,
