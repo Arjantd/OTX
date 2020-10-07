@@ -35,10 +35,10 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 55,
+    "uniqCompNum": 72,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/logo-otx-logistics-128x47.png",
+    "favicon": "@PROJECT_PATH@/assets/images/xxx-128x56.png",
     "noImageResize": ""
   },
   "pages": {
@@ -2041,7 +2041,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
