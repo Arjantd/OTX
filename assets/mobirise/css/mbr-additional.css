@@ -1658,7 +1658,7 @@ body {
 }
 @media (min-width: 1024px) {
   .cid-s8jdvU6XvX .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.6rem);
   }
 }
 .cid-s8jdvU6XvX .collapsed button.navbar-toggler {
@@ -1813,9 +1813,9 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-s8jdDc3ZqK {
-  padding-top: 75px;
+  padding-top: 120px;
   padding-bottom: 135px;
-  background-image: url("../../../assets/images/1-a-186964970-2000x1333.jpg");
+  background-image: url("../../../assets/images/shutterstock-129952736-2000x680.jpg");
 }
 .cid-s8je43Qapm {
   padding-top: 60px;
@@ -2155,6 +2155,86 @@ body {
     padding: 15px;
     -webkit-flex: 0 0 20%;
   }
+}
+.cid-scINvE6tVD {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-scINvE6tVD h2 {
+  text-align: center;
+}
+.cid-scINvE6tVD h3 {
+  text-align: center;
+  font-weight: 300;
+}
+.cid-scINvE6tVD p {
+  color: #767676;
+}
+.cid-scINvE6tVD img {
+  object-fit: cover;
+}
+.cid-scINvE6tVD .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-scINvE6tVD .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+.cid-scINvE6tVD .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.cid-scINvE6tVD .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-scINvE6tVD .card-title {
+  font-weight: 500;
+}
+.cid-scINvE6tVD .card-img {
+  text-align: inherit;
+}
+.cid-scINvE6tVD .card-img span {
+  font-size: 48px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-scINvE6tVD .mbr-figure {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .cid-scINvE6tVD .mbr-figure {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-scINvE6tVD .block-content {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    text-align: center;
+  }
+  .cid-scINvE6tVD .block-content .card {
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+  }
+  .cid-scINvE6tVD .card:nth-child(1) {
+    padding-bottom: 0!important;
+  }
+}
+.cid-scIOIcCwlO {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #272f51;
 }
 .cid-scImcVCSDh .modal-body .close {
   background: #1b1b1b;
