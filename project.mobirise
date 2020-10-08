@@ -38,14 +38,14 @@
     "uniqCompNum": 55,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/xxx-128x56.png",
+    "favicon": "@PROJECT_PATH@/assets/images/xxx-128x135.png",
     "noImageResize": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "OTX Home page",
+        "title": "OTX Logistics",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
