@@ -1825,6 +1825,29 @@ body {
 .cid-s8je53Cvqs .mbr-text {
   color: #767676;
 }
+.cid-scPqStIjjD {
+  background: #ffffff;
+}
+.cid-scPqStIjjD .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-scPqStIjjD .mbr-figure {
+  margin: 0 auto;
+}
+.cid-scPqStIjjD figcaption {
+  position: relative;
+}
+.cid-scPqStIjjD figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-scPqStIjjD .image-block {
+    width: 100% !important;
+  }
+}
 .cid-scI9EfHJlI {
   padding-top: 45px;
   padding-bottom: 45px;
