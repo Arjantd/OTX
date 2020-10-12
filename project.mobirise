@@ -35,7 +35,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 57,
+    "uniqCompNum": 51,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/xxx2-128x135.png",
@@ -882,7 +882,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/contract-logistics-2-1500x825.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -900,7 +900,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/contract-logistics-2-1500x825.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -911,7 +911,7 @@
                 "customStyle3": "display-4",
                 "title": "Contract logistics services",
                 "overlay": true,
-                "contentAlign": "left",
+                "contentAlign": "center",
                 "text": "Slide met Youtube video-achtergrond en dekkleur. Titel en tekst worden links uitgelijnd.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">VOOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">VOOR MAC</a>",
                 "overlayOpacity": "0.3"
@@ -2132,11 +2132,11 @@
           "_name": "footer7",
           "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Menu items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Social items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Nadruk effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#272f51\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"page1.html\">Privacy Statement</a></li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2020 OTX Logistics BV - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "scOtpBQhit",
+          "_anchor": "footer7-1h",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer7-1h"
+          "_params": {}
         },
         {
           "alias": false,
@@ -2151,11 +2151,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Privacy statement\n</b></p><p>&nbsp;\n</p><p>\n<span style=\"font-size: 1rem;\">OTX Logistics is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.&nbsp;</span></p><p><b>\n<span style=\"font-size: 1rem;\">Persoonsgegevens die wij verwerken&nbsp;<br></span></b><span style=\"font-size: 1rem;\">OTX Logistics BV verwerkt uw persoonsgegevens alleen als u gebruik maakt van onze diensten en/of omdat u deze zelf aan ons verstrekt. Wij verzamelen geen bijzondere en/of gevoelige persoonsgegevens, niet via onze website en ook niet via andere wegen. Persoonsgegevens die wij verwerken:&nbsp;<br></span><span style=\"font-size: 1rem;\"><br>- Voor- en achternaam&nbsp;<br></span><span style=\"font-size: 1rem;\">- Zakelijke contact- en aflevergegevens&nbsp;<br></span><span style=\"font-size: 1rem;\"><br><b>Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken<br></b></span><span style=\"font-size: 1rem;\">OTX Logistics BV verwerkt uw persoonsgegevens voor de volgende doelen:</span></p><p>\n</p><p>- U te kunnen informeren indien dit nodig is om onze dienstverlening uit te kunnen voeren<br><span style=\"font-size: 1rem;\">- U te informeren over wijzigingen van onze diensten en producten<br></span><span style=\"font-size: 1rem;\">- Om goederen en diensten bij u af te leveren<br></span><span style=\"font-size: 1rem;\">- Het afhandelen van uw betaling<br></span><span style=\"font-size: 1rem;\">- Verzenden van nieuwsbrief of ad-hoc berichten die van belang zijn voor uw logistieke processen</span></p><p>\n</p><p><span style=\"font-size: 1rem;\"><b>Geautomatiseerde besluitvorming<br></b></span><span style=\"font-size: 1rem;\">OTX Logistics BV neemt op geen enkele wijze besluiten op basis van geautomatiseerde verwerkingen besluiten over zaken die (aanzienlijke) gevolgen kunnen hebben voor personen.</span></p><p>\n</p><p><span style=\"font-size: 1rem;\"><br><b>Delen van persoonsgegevens met derden<br></b></span><span style=\"font-size: 1rem;\">OTX Logistics BV verkoopt uw gegevens niet aan derden en verstrekt deze uitsluitend indien dit nodig is voor de uitvoering van onze overeenkomst met u of om te voldoen aan een wettelijke verplichting. Met bedrijven die uw gegevens verwerken in onze opdracht, sluiten wij een bewerkersovereenkomst om te zorgen voor eenzelfde niveau van beveiliging en vertrouwelijkheid van uw gegevens. OTX Logistics BV blijft verantwoordelijk voor deze verwerkingen.</span></p><p>\n</p><p><span style=\"font-size: 1rem;\"><br><b>Cookies, of vergelijkbare technieken, die wij gebruiken<br></b></span><span style=\"font-size: 1rem;\">OTX Logistics BV gebruikt alleen technische en functionele cookies. En analytische cookies die geen inbreuk maken op uw privacy. De cookies die wij gebruiken zijn noodzakelijk voor de technische werking van de website en uw gebruiksgemak. Ze zorgen ervoor dat de website naar behoren werkt en onthouden bijvoorbeeld uw voorkeursinstellingen. U kunt zich afmelden voor cookies door uw internetbrowser zo in te stellen dat deze geen cookies meer opslaat. Daarnaast kunt u ook alle informatie die eerder is opgeslagen via de instellingen van uw browser verwijderen.</span></p><p>\n</p><p>&nbsp;<br><span style=\"font-size: 1rem;\"><b>Gegevens inzien, aanpassen of verwijderen</b><br></span><span style=\"font-size: 1rem;\">U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heeft u het recht om uw eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens door OTX Logistics BV en heeft u het recht op gegevensoverdraagbaarheid. Dat betekent dat u bij ons een verzoek kunt indienen om de persoonsgegevens die wij van u beschikken in een computerbestand naar u of een ander, door u genoemde organisatie, te sturen. U kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van uw persoonsgegevens of verzoek tot intrekking van uw toestemming of bezwaar op de verwerking van uw persoonsgegevens sturen naar info@ams.otxlogistics.com.</span></p><p>\n</p><p><span style=\"font-size: 1rem;\"><br><b>Hoe wij persoonsgegevens beveiligen</b><br></span><span style=\"font-size: 1rem;\">OTX Logistics BV neemt uw privacy serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang of ongewenste openbaarmaking tegen te gaan. Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact met ons op via info@ams.otxlogistics.com</span></p><p>\n</p><p><span style=\"font-size: 1rem;\"><br>Deze privacyverklaring kan indien nodig door ons worden aangepast en we zullen veranderingen in wetgeving en jurisprudentie respecteren. Heeft u vragen over ons privacybeleid, aarzel niet om contact met ons op te nemen.</span><br></p><p>\n</p><p>&nbsp;</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "scOuA3O5WP",
+          "_anchor": "content1-1i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1i"
+          "_params": {}
         }
       ]
     }
