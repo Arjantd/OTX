@@ -2720,6 +2720,29 @@ body {
     margin-left: 0 !important;
   }
 }
+.cid-sdSL9RNZHS {
+  background: #ffffff;
+}
+.cid-sdSL9RNZHS .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-sdSL9RNZHS .mbr-figure {
+  margin: 0 auto;
+}
+.cid-sdSL9RNZHS figcaption {
+  position: relative;
+}
+.cid-sdSL9RNZHS figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-sdSL9RNZHS .image-block {
+    width: 100% !important;
+  }
+}
 .cid-scJ3Y50jTw .main_wrapper {
   position: relative;
   height: 40rem;
